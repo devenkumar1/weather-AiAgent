@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env Agent.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/core": "^0.3.60",
+    "@langchain/google-genai": "^0.2.13",
+    "@langchain/langgraph": "^0.3.4",
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.67"
+  }
+}
