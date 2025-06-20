@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node --env-file=.env Agent2.js",
     "dev": "node --env-file=.env Agent.js"
   },
   "keywords": [],
@@ -16,7 +17,10 @@
     "@langchain/google-genai": "^0.2.13",
     "@langchain/langgraph": "^0.3.4",
     "axios": "^1.10.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.29",
     "zod": "^3.25.67"
   }
 }
